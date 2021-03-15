@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 void main() {
   return runApp(
@@ -22,7 +23,7 @@ class DicePage extends StatefulWidget {
 
 class _DicePageState extends State<DicePage> {
   
-  var leftDieNumber = 3;
+  int leftDieNumber = 3;
   int rightDieNumber = 4;
 
   @override
